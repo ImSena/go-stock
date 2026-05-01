@@ -11,7 +11,7 @@ type Item struct {
 
 func (i *Item) Info() string {
 	return fmt.Sprintf(
-		"ID: %d | Name: %s | Quantidade: %d | Price: %.2f",
+		"ID: %d | Name: %s | Quantidade: %d | Price: %.2f \n",
 		i.ID, i.Name, i.Quantity, i.Price,
 	)
 }
